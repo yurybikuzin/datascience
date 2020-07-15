@@ -1,2 +1,6 @@
 .ipynb_checkpoints
 *.zip
+skillfactory_rds
+*.swp
+*.swo
+*.swn
