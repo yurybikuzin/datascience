@@ -1,10 +1,19 @@
 # datascience
 
-## Jupyter notebook
+## Clone git
 
 ```
-docker run -p 8888:8888 -v "$PWD/ipynb":/home/jovyan/work jupyter/scipy-notebook
+git clone git@github.com:yurybikuzin/datascience.git
 ```
+
+## Run jupyter notebook server
+
+```
+cd datascience
+docker run -p 8888:8888 -v "$PWD":/home/jovyan/work jupyter/scipy-notebook
+```
+
+To open jupyter notebook follow instructions in console
 
 ## Links
 
