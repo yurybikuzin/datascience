@@ -3,6 +3,7 @@ ARG BW_DEV_PROJ_DOCKER_TAG
 FROM ${BW_DEV_PROJ_DOCKER_IMAGE}:${BW_DEV_PROJ_DOCKER_TAG}
 
 RUN pip install catboost
+RUN pip install lightgbm
 # RUN apk add dumb-init bash
 # RUN apt-get update && apt-get install -y dumb-init bash
 # RUN apt-get install -y libssl1.1
