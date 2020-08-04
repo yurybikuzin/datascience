@@ -1,0 +1,7 @@
+ARG BW_DEV_PROJ_DOCKER_IMAGE
+ARG BW_DEV_PROJ_DOCKER_TAG
+FROM ${BW_DEV_PROJ_DOCKER_IMAGE}:${BW_DEV_PROJ_DOCKER_TAG}
+
+# RUN pip install catboost
+# RUN pip install lightgbm
+RUN pip install lightfm
